@@ -1,6 +1,8 @@
 trigger:
 - '*'
 
+variables: 
+  buildConfiguation: 'Release'
 pool:
   vmImage: 'ubuntu-16.04'
   demands:
